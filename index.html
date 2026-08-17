@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>A mi manera</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="stars"></div>
+  <main class="container">
+    <section class="hero">
+      <div class="eyebrow">para alguien especial</div>
+      <h1>Tal vez no sepa cómo demostrarte que me gustas,<br><span>así que decidí hacerlo a mi manera.</span></h1>
+      <p class="intro">Hay cosas que a veces cuesta decir en voz alta. Así que preferí dejarlas aquí, para que las descubras poquito a poquito.</p>
+    </section>
+
+    <section class="menu" aria-label="Secciones">
+      <button class="card" data-section="interest"><span>01</span><strong>Demostrarte interés</strong><small>Las pequeñas formas en las que se me nota.</small></button>
+      <button class="card" data-section="likes"><span>02</span><strong>Cosas que me gustan de ti</strong><small>Detalles que quizá no sabes que noto.</small></button>
+      <button class="card" data-section="surprise"><span>03</span><strong>Sorpresa</strong><small>Porque una sola frase nunca es suficiente.</small></button>
+      <button class="card" data-section="encuéntrame"><span>04</span><strong>Encuéntrame</strong><small>Hay algo escondido en esta página. Si lo encuentras...</small></button>
+    </section>
+
+
+    <section id="content" class="content hidden" aria-live="polite">
+      <button id="back" class="back">← volver</button>
+      <div id="contentInner"></div>
+    </section>
+
+    <footer>Hecho con un poquito de nervios y bastante cariño.</footer>
+  </main>
+<script src="script.js"></script>
+
+</body>
+</html>
